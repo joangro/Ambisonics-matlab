@@ -1,0 +1,25 @@
+# ambisonics-B-format
+Simple B-format coder based on Ambisonics. 
+
+Function: It creates a 4-channel B-format from an input signal and Elevation/Opening information. The result
+it's the signal with the directionality padding we have choosed.
+If we choose more than one directionality, the result will be the original signal padded as many times as we
+have chosen on the output signal.
+
+NOTE: The input signal must be a MONOPHONIC signal.
+
+-Script:
+  The values of directionality must be placed on the vectors Azimuth and Elevation accordingly
+  
+-Core function:
+  Creates the Ambisonic B-format from an input signal using Azimuth and Elevation values.
+    
+  - Input:    
+    - signal: monophonic vector signal
+    - Azimuth: Opening horizontal angle(X), can be a vector
+    - Elevation: Median angle (Z), can be a vector
+    - If Azimuth and elevation are vectors, they must be the same size
+
+  - Output:   
+    - y: monophonic B-format signal, if the inputs are vectors this will be the concatenation 
+         of the same sound by the length of the vectors.
