@@ -1,4 +1,4 @@
-Ambisonics library for matlab
+Ambisonics library for matlab.
 
 Author:	Joan Grau	
 
