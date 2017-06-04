@@ -1,4 +1,4 @@
-Autor:	Joan Grau	
+Author:	Joan Grau	
 
 Creation Date: 03/06/2017
 
