@@ -1,7 +1,8 @@
 function [ y ] = ambis_uhj_coder( x, numCh )
 % 
-% Information courtesy of https://wiki.xiph.org/Ambisonics and
-% https://en.wikipedia.org/w/index.php?title=Ambisonic_UHJ_format
+% Information courtesy of:
+%       https://wiki.xiph.org/Ambisonics
+%       https://en.wikipedia.org/w/index.php?title=Ambisonic_UHJ_format
 %
 % SUMMARY: Coder to convert a standard ambisonic b-format signal to UHJ
 % format (also known as c-format). 
@@ -18,6 +19,7 @@ function [ y ] = ambis_uhj_coder( x, numCh )
 % OUTPUTS:
 %       - y:        output UHJ signal (matrix)
 %
+
 %% Error control
 if nargin < 2
     disp('Incorrect number of channels');
@@ -34,6 +36,8 @@ else
     nch = n;
     len = m;
 end
+y = zeros(m,numCh);
+
 %% Core function
 % b-format variables
 W = x(:,1);
