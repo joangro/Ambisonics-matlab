@@ -32,3 +32,12 @@ CURRENT FUNCTIONS:
     
 -   ambis_a_b_converter
     - Converts an a-format ambisonic signal to b-format 
+
+-   ambis-uhj-format
+    - Series of functions that allows us to code and decode UHJ format (also known as c-format)
+    
+    
+    
+    
+    
+    
