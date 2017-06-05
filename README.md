@@ -6,8 +6,8 @@ Current state: In progress
 
 REASONS:
 
-Ambisonics it's a very interesting theory which revolves around codifying the soundfield using a complex and complete mathematical theory which has many interesting aplications and implications. 
-As this theory has a lot of points from where it can be taken on, I want to try to implement this theoru into a series of the functional capabilities it's capable off, in a serie of distributed functions that work separately or together depending on our objectives.
+Ambisonics it's a very interesting theory which revolves around codifying the soundfield using a complex and complete mathematical theory, which has many interesting aplications and implications. 
+As this theory has a lot of points from where it can be taken on, I want to try to implement this theory and the capabilities of it, in a serie of distributed functions that work separately or together depending on our needs.
 
 
 OBJECTIVE:
