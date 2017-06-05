@@ -60,5 +60,5 @@ switch (nch)
         y(:,4) = 1.023.*Q;
       
 end
-
+y = real(y);
 end
