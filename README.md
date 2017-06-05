@@ -6,14 +6,14 @@ Current state: In progress
 
 REASONS:
 
-Ambisonics it's a very interesting theory which revolves around codifying the soundfield using a complex and complete mathematical theory which has many interesting aplications and implications. 
-As this theory has a lot of points from where it can be taken on, I want to try to implement this theoru into a series of the functional capabilities it's capable off, in a serie of distributed functions that work separately or together depending on our objectives.
+Ambisonics it's a very interesting theory which revolves around codifying the soundfield using a complex and complete mathematical theory, which has many interesting aplications and implications. 
+As this theory has a lot of points from where it can be taken on, I want to try to implement this theory and the capabilities of it, in a serie of distributed functions that work separately or together depending on our needs.
 
 
 OBJECTIVE:
 
-Create and implement a list of basic functions to work with Ambisonics (Both standard and HOA) with Matlab.
-
+Create and implement a list of basic functions to work with Ambisonics with Matlab.
+At the moment this library only includes up to first order Ambisonics, in the future I may extend this functions to support Higher Order Ambisonics.
 
 
 FOLDERS:
@@ -32,3 +32,12 @@ CURRENT FUNCTIONS:
     
 -   ambis_a_b_converter
     - Converts an a-format ambisonic signal to b-format 
+
+-   ambis-uhj-format
+    - Series of functions that allows us to code and decode UHJ format (also known as c-format)
+    
+    
+    
+    
+    
+    
