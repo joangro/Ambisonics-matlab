@@ -43,7 +43,7 @@ else
 end
 
 if nch ~= 4
-    display('Incorrect input signal, please check this is a correct a-format signal');
+    disp('Incorrect input signal, please check this is a correct a-format signal');
     return
 else
     y = zeros(m,4);
