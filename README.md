@@ -12,8 +12,8 @@ As this theory has a lot of points from where it can be taken on, I want to try 
 
 OBJECTIVE:
 
-Create and implement a list of basic functions to work with Ambisonics (Both standard and HOA) with Matlab.
-
+Create and implement a list of basic functions to work with Ambisonics with Matlab.
+At the moment this library only includes up to first order Ambisonics, in the future I may extend this functions to support Higher Order Ambisonics.
 
 
 FOLDERS:
